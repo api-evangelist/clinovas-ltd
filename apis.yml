@@ -1,7 +1,24 @@
 aid: clinovas-ltd
 name: Clinovas LTD
-description: Clinovas LTD is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Clinovas LTD (Clinova, clinova.ai) is an AI-powered patient recruitment platform for
+  clinical trials. Per the company''s own site, it matches eligible patients to trials in minutes
+  rather than months using AI-powered patient matching against hospital electronic health records
+  (EHR). The solution is hospital-based and HIPAA-compliant, targeting clinical research organizations
+  and trial sponsors operating in emerging markets including Eastern Europe and the CIS region. Backed
+  by 500 Global. Added to the API Evangelist network as a company profile; no public developer API,
+  OpenAPI, or developer portal was found at the time of enrichment.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://clinova.ai/cover.webp
 url: https://raw.githubusercontent.com/api-evangelist/clinovas-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Clinical Trials
+- Patient Recruitment
+- AI Matching
+- EHR Integration
+- HIPAA Compliant
+- Healthcare Technology
+- Clinical Research
+- CRO Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/clinovas-ltd-domain-security.yml
 - type: Website
   url: https://clinova.ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
