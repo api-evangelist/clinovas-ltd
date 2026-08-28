@@ -7,6 +7,17 @@ description: 'Clinovas LTD (Clinova, clinova.ai) is an AI-powered patient recrui
   and trial sponsors operating in emerging markets including Eastern Europe and the CIS region. Backed
   by 500 Global. Added to the API Evangelist network as a company profile; no public developer API,
   OpenAPI, or developer portal was found at the time of enrichment.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
