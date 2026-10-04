@@ -1,5 +1,5 @@
 aid: clinovas-ltd
-name: Clinovas LTD
+name: Clinovas
 description: 'Clinovas LTD (Clinova, clinova.ai) is an AI-powered patient recruitment platform for
   clinical trials. Per the company''s own site, it matches eligible patients to trials in minutes
   rather than months using AI-powered patient matching against hospital electronic health records
@@ -47,6 +47,16 @@ tags:
 - AI Matching
 - EHR Integration
 - HIPAA Compliant
+- Health Tech
+- Clinical Research
+- CRO Software
+tags_raw:
+- Company
+- Clinical Trials
+- Patient Recruitment
+- AI Matching
+- EHR Integration
+- HIPAA Compliant
 - Healthcare Technology
 - Clinical Research
 - CRO Software
@@ -66,3 +76,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Clinovas LTD
